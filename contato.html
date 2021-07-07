@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato</title>
+        <link href="favicon.ico" rel="icon" type="image/x-icon" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+            * {text-align: center; margin: 0px;}
+            header {border: 1px; padding: 5px; margin: 5px}
+            body {background-color: #DEE4E7;}
+            div {width: 600px; margin: 0px auto}
+            label {line-height: 33px;}
+            input {width: 400px; padding: 5px; margin: 2px; border: 1px solid #999999; border-radius: 4px}
+            textarea {width: 520px; padding: 5px; margin: 2px; border: 1px solid #999999; border-radius: 4px}
+            select {width: 520px; padding: 5px; margin: 2px; border: 1px solid #999999; border-radius: 4px}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 style="color: rgb(87, 87, 87); font-family: 'Inconsolata', monospace;" >Contato</h1>
+        </header>
+        <div>
+            <form action="enviar.html" style="padding: 5px;">
+                <label for="Email">Email: </label><input id="Email" type="email" placeholder="Insira seu email"/><br />
+                <label for="assunto">Assunto: </label>
+                <select id="assunto">
+                    <option>Selecione o assunto</option>
+                    <option>Profissional</option>
+                    <option>Outro</option>
+                </select> <br /> <br />
+                <label for="conteudo">Conteudo: </label>
+                <textarea id="conteudo" rows="5" cols="40" placeholder="Insira o conteudo do email"></textarea>
+                <br />
+                <br />
+                <input type="submit" value="Enviar"/>
+                <input type="reset" value="Resetar"/>
+            </form>
+        </div>
+    </body>
+</html>
