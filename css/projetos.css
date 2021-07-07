@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #DEE4E7;
+}
+
+#foda {
+    font-family: 'Inconsolata', monospace;
+    color: rgb(87, 87, 87);
+    text-align: center
+}
+
+#foda2 {
+    font-family: 'Inconsolata', monospace;
+    color: rgb(87, 87, 87)
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    margin: 0px;
+}
+
+div {
+    position: relative;
+    text-align: center;
+}
+
+body {
+    background-color: #DEE4E7;
+}
+
+header {
+    border: 1px;
+    padding: 5px;
+    margin: 5px
+}
+
+.foda1 {
+    font-family: monospace;
+    color: black;
+    margin: 5px;
+}
