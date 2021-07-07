@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Contato</title>
-        <link href="favicon.ico" rel="icon" type="image/x-icon" />
+        <link href="imagens/favicon.ico" rel="icon" type="image/x-icon" />
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
@@ -15,7 +15,6 @@
             label {line-height: 33px;}
             input {width: 400px; padding: 5px; margin: 2px; border: 1px solid #999999; border-radius: 4px}
             textarea {width: 520px; padding: 5px; margin: 2px; border: 1px solid #999999; border-radius: 4px}
-            select {width: 520px; padding: 5px; margin: 2px; border: 1px solid #999999; border-radius: 4px}
         </style>
     </head>
     <body>
@@ -23,20 +22,16 @@
             <h1 style="color: rgb(87, 87, 87); font-family: 'Inconsolata', monospace;" >Contato</h1>
         </header>
         <div>
-            <form action="enviar.html" style="padding: 5px;">
-                <label for="Email">Email: </label><input id="Email" type="email" placeholder="Insira seu email"/><br />
-                <label for="assunto">Assunto: </label>
-                <select id="assunto">
-                    <option>Selecione o assunto</option>
-                    <option>Profissional</option>
-                    <option>Outro</option>
-                </select> <br /> <br />
+            <form action="https://getform.io/f/0a224734-a328-4f1e-ab4b-46e8a6fdeae5" method="POST" style="padding: 5px;">
+                <label for="Nome">Nome: </label><input id="Nome" type="text" placeholder="Insira seu nome" name="name"/><br />
+                <label for="Email">Email: </label><input id="Email" type="email" placeholder="Insira seu email" name="email"/><br />
                 <label for="conteudo">Conteudo: </label>
-                <textarea id="conteudo" rows="5" cols="40" placeholder="Insira o conteudo do email"></textarea>
+                <textarea id="conteudo" rows="5" cols="40" placeholder="Insira o conteudo do email" name="message"></textarea>
                 <br />
                 <br />
                 <input type="submit" value="Enviar"/>
                 <input type="reset" value="Resetar"/>
+                <input type="button" value="Voltar" onclick="window.location.href = 'index.html'"/>
             </form>
         </div>
     </body>
