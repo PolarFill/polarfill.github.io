@@ -19,8 +19,18 @@ header {
     margin: 5px
 }
 
-.foda1 {
+#foda1 {
     font-family: monospace;
     color: black;
     margin: 5px;
+}
+
+#foda2 {
+    color: rgb(87, 87, 87); 
+    font-family: 'Inconsolata', monospace;
+}
+
+#foda3 {
+    padding: 5px; 
+    font-family: 'Lato', sans-serif;
 }
