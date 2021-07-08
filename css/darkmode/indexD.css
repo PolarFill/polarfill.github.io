@@ -9,10 +9,6 @@ div {
     text-align: center;
 }
 
-body {
-    background-color: #DEE4E7;
-}
-
 header {
     border: 1px;
     padding: 5px;
@@ -21,12 +17,12 @@ header {
 
 #foda1 {
     font-family: monospace;
-    color: black;
+    color: #b0b3b8;
     margin: 5px;
 }
 
 #foda2 {
-    color: rgb(87, 87, 87); 
+    color: #E4E6EB; 
     font-family: 'Inconsolata', monospace;
     padding: 10px;
 }
@@ -34,13 +30,5 @@ header {
 #foda3 {
     padding: 10px;
     font-family: 'Lato', sans-serif;
-}
-
-a.button {
-    display: inline-block;
-    margin: 5px;   
-}
-
-.darkmode {
-    background-color: #18191A;
+    color: #E4E6EB;
 }

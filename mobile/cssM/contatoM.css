@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    text-align: center;
+    margin: 0px;
+}
+
+header {
+    border: 1px;
+    padding: 5px;
+    margin: 5px
+}
+
+body {
+    background-color: #DEE4E7;
+}
+
+div {
+    width: 600px;
+    margin: 0px auto
+}
+
+label {
+    line-height: 33px;
+}
+
+input {
+    width: 400px;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid #999999;
+    border-radius: 4px
+}
+
+textarea {
+    width: 520px;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid #999999;
+    border-radius: 4px
+}
+
+#foda1 {
+    color: rgb(87, 87, 87);
+    font-family: 'Inconsolata', monospace;
+}
