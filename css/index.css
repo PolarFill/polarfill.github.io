@@ -16,6 +16,8 @@ header {
     margin: 5px
 }
 
+
+
 #foda1 {
     font-family: monospace;
     color: black;
@@ -31,13 +33,4 @@ header {
 #foda3 {
     padding: 10px;
     font-family: 'Lato', sans-serif;
-}
-
-a.button {
-    display: inline-block;
-    margin: 5px;   
-}
-
-.darkmode {
-    background-color: #18191A;
 }
