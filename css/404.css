@@ -1,1 +1,22 @@
-Hello, world!
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+* {
+    text-align: center;
+}
+
+header {
+    font-family: 'Inconsolata', monospace
+}
+
+body {
+    background-color: #DEE4E7;
+}
+
+button {
+    background: transparent;
+    font-family: 'Space Mono', monospace;
+    width: 200px;
+    border: 2px solid rgb(107, 107, 107);
+}
