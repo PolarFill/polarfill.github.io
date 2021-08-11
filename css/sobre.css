@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap');
 
 ::selection {background: #999999;}
 
@@ -11,16 +12,21 @@
 div {
     position: relative;
     text-align: center;
+    font-family: 'Inconsolata', monospace;
 }
 
 header {
+    text-align: center;
+    /* color: rgb(87, 87, 87); */
+    color: #979797; 
+    font-family: 'Inconsolata', monospace;
+    padding: 10px;
     border: 1px;
-    padding: 5px;
     margin: 5px
 }
 
-#titulo {
-    color: rgb(87, 87, 87); 
-    font-family: 'Inconsolata', monospace;
-    padding: 10px;
+article::first-letter {
+    font-family: 'DM Mono', monospace;
+    text-transform: uppercase;
+    font-size: 25px;
 }

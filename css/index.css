@@ -34,7 +34,8 @@ a:hover {
 }
 
 #foda2 {
-    color: rgb(87, 87, 87); 
+    /* color: rgb(87, 87, 87); */
+    color: #979797;
     font-family: 'Inconsolata', monospace;
     padding: 10px;
 }
