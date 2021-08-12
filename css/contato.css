@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
 ::selection {background: #999999;}
+::-webkit-scrollbar-button { background-color: yellow }
 
 * {
     text-align: center;
@@ -44,6 +45,11 @@ input {
 }
 
 textarea {
+    overflow: auto;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 100px;
+    max-height: 100px;
     width: 400px;
     padding: 5px;
     margin: 2px;
